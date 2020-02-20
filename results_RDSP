@@ -6,7 +6,7 @@ optimization o0:  1) 12 630
 		  2) 13 149
 		  3) 12 630
 
-optimization o1:  1) 4 243
+optimization o2:  1) 4 243
 		  2) 3 704
 		  3) 3 703
 
@@ -20,9 +20,21 @@ optimization o0: 1) 11 716
 		 2) 11 411
 		 3) 11 417
 
-optimization 02: 1) 2 266
+optimization o2: 1) 2 266
 		 2) 1 974
 		 3) 1 974
 
+Symmetrical properties 
 
+optimization o2: 1) 574
+		 2) 575
+		 3) 574
+
+optimization o0: 1) 6 376
+		 2) 6 112
+		 3) 6 111
+
+no optimization: 1) 5 739
+		 2) 5 740
+		 3) 5 740
 
