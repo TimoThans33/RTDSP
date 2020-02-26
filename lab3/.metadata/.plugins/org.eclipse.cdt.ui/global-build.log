@@ -1,0 +1,2074 @@
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../dsp_bios_.tcf"
+Invoking: TConf
+"C:/ti/bios_5_42_02_10/xdctools/tconf" -b -Dconfig.importPath="C:/ti/bios_5_42_02_10/packages;" "../dsp_bios_.tcf"
+Finished building: "../dsp_bios_.tcf"
+ 
+Building file: "dsp_bios_cfg_c.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="dsp_bios_cfg_c.d_raw"  "dsp_bios_cfg_c.c"
+Finished building: "dsp_bios_cfg_c.c"
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+Finished building: "../sine.c"
+ 
+Building file: "dsp_bios_cfg.s??"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="dsp_bios_cfg.d_raw"  "dsp_bios_cfg.s??"
+Finished building: "dsp_bios_cfg.s??"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./sine.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+ 
+>> Compilation failure
+subdir_rules.mk:40: recipe for target 'sine.obj' failed
+"../sine.c", line 192: error #171: expected a declaration
+1 error detected in the compilation of "../sine.c".
+gmake: *** [sine.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+ 
+>> Compilation failure
+subdir_rules.mk:40: recipe for target 'sine.obj' failed
+"../sine.c", line 194: warning #176-D: expression has no effect
+"../sine.c", line 194: warning #176-D: expression has no effect
+"../sine.c", line 194: error #66: expected a ";"
+"../sine.c", line 194: error #29: expected an expression
+"../sine.c", line 194: error #66: expected a ";"
+3 errors detected in the compilation of "../sine.c".
+gmake: *** [sine.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+ 
+>> Compilation failure
+subdir_rules.mk:40: recipe for target 'sine.obj' failed
+"../sine.c", line 194: warning #176-D: expression has no effect
+"../sine.c", line 194: warning #176-D: expression has no effect
+"../sine.c", line 194: error #66: expected a ";"
+"../sine.c", line 194: error #29: expected an expression
+"../sine.c", line 194: error #66: expected a ";"
+3 errors detected in the compilation of "../sine.c".
+gmake: *** [sine.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+ 
+>> Compilation failure
+subdir_rules.mk:40: recipe for target 'sine.obj' failed
+"../sine.c", line 193: error #29: expected an expression
+"../sine.c", line 193: error #20: identifier "i" is undefined
+2 errors detected in the compilation of "../sine.c".
+gmake: *** [sine.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+ 
+>> Compilation failure
+subdir_rules.mk:40: recipe for target 'sine.obj' failed
+"../sine.c", line 193: error #29: expected an expression
+"../sine.c", line 193: error #20: identifier "i" is undefined
+2 errors detected in the compilation of "../sine.c".
+gmake: *** [sine.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+Finished building: "../sine.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./sine.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+Finished building: "../sine.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./sine.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+Finished building: "../sine.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./sine.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+ 
+>> Compilation failure
+subdir_rules.mk:40: recipe for target 'sine.obj' failed
+"../sine.c", line 118: error #169: argument of type "float *" is incompatible with parameter of type "const char *"
+"../sine.c", line 120: error #66: expected a ";"
+"../sine.c", line 141: warning #12-D: parsing restarts here after previous syntax error
+2 errors detected in the compilation of "../sine.c".
+gmake: *** [sine.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+Finished building: "../sine.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./sine.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+ 
+>> Compilation failure
+subdir_rules.mk:40: recipe for target 'sine.obj' failed
+"../sine.c", line 195: error #66: expected a ";"
+1 error detected in the compilation of "../sine.c".
+gmake: *** [sine.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+Finished building: "../sine.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./sine.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+Finished building: "../sine.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./sine.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+Finished building: "../sine.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./sine.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+Finished building: "../sine.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./sine.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+ 
+>> Compilation failure
+subdir_rules.mk:40: recipe for target 'sine.obj' failed
+"../sine.c", line 122: warning #551-D: variable "i" is used before its value is set
+"../sine.c", line 192: error #66: expected a ";"
+"../sine.c", line 194: warning #994-D: missing return statement at end of non-void function "sinegen"
+"../sine.c", line 177: warning #552-D: variable "wave" was set but never used
+1 error detected in the compilation of "../sine.c".
+gmake: *** [sine.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+"../sine.c", line 122: warning #551-D: variable "i" is used before its value is set
+Finished building: "../sine.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./sine.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+Finished building: "../sine.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./sine.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+Finished building: "../sine.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./sine.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+Finished building: "../sine.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./sine.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+Finished building: "../sine.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./sine.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+Finished building: "../sine.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./sine.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+Finished building: "../sine.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./sine.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+Finished building: "../sine.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./sine.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+Finished building: "../sine.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./sine.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+ 
+>> Compilation failure
+subdir_rules.mk:40: recipe for target 'sine.obj' failed
+"../sine.c", line 131: error #167: too few arguments in function call
+"../sine.c", line 195: error #66: expected a ";"
+"../sine.c", line 197: warning #994-D: missing return statement at end of non-void function "sinegen"
+"../sine.c", line 180: warning #552-D: variable "wave" was set but never used
+2 errors detected in the compilation of "../sine.c".
+gmake: *** [sine.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+ 
+>> Compilation failure
+subdir_rules.mk:40: recipe for target 'sine.obj' failed
+"../sine.c", line 172: error #148: declaration is incompatible with "float sinegen(void)" (declared at line 108)
+1 error detected in the compilation of "../sine.c".
+gmake: *** [sine.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+Finished building: "../sine.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./sine.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+ 
+>> Compilation failure
+subdir_rules.mk:40: recipe for target 'sine.obj' failed
+"../sine.c", line 128: error #167: too few arguments in function call
+"../sine.c", line 181: warning #179-D: variable "a0" was declared but never referenced
+"../sine.c", line 182: warning #179-D: variable "b0" was declared but never referenced
+1 error detected in the compilation of "../sine.c".
+gmake: *** [sine.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+"../sine.c", line 181: warning #179-D: variable "a0" was declared but never referenced
+"../sine.c", line 182: warning #179-D: variable "b0" was declared but never referenced
+Finished building: "../sine.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./sine.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+"../sine.c", line 181: warning #179-D: variable "a0" was declared but never referenced
+"../sine.c", line 182: warning #179-D: variable "b0" was declared but never referenced
+Finished building: "../sine.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./sine.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+Finished building: "../sine.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./sine.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+Finished building: "../sine.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./sine.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../sine.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab2/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab2/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="sine.d_raw"  "../sine.c"
+Finished building: "../sine.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./sine.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../dsp_bios_.tcf"
+Invoking: TConf
+"C:/ti/bios_5_42_02_10/xdctools/tconf" -b -Dconfig.importPath="C:/ti/bios_5_42_02_10/packages;" "../dsp_bios_.tcf"
+Finished building: "../dsp_bios_.tcf"
+ 
+Building file: "dsp_bios_cfg_c.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="dsp_bios_cfg_c.d_raw"  "dsp_bios_cfg_c.c"
+Finished building: "dsp_bios_cfg_c.c"
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building file: "dsp_bios_cfg.s62"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="dsp_bios_cfg.d_raw"  "dsp_bios_cfg.s62"
+Finished building: "dsp_bios_cfg.s62"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+ 
+ undefined     first referenced  
+  symbol           in file       
+ ---------     ----------------  
+ 
+ _InteruptFunc ./dsp_bios_cfg.obj
+>> Compilation failure
+makefile:144: recipe for target 'ProjectFiles.out' failed
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "ProjectFiles.out" not built
+gmake[1]: *** [ProjectFiles.out] Error 1
+gmake: *** [all] Error 2
+makefile:140: recipe for target 'all' failed
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../dsp_bios_.tcf"
+Invoking: TConf
+"C:/ti/bios_5_42_02_10/xdctools/tconf" -b -Dconfig.importPath="C:/ti/bios_5_42_02_10/packages;" "../dsp_bios_.tcf"
+Finished building: "../dsp_bios_.tcf"
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building file: "dsp_bios_cfg_c.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="dsp_bios_cfg_c.d_raw"  "dsp_bios_cfg_c.c"
+Finished building: "dsp_bios_cfg_c.c"
+ 
+Building file: "dsp_bios_cfg.s62"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="dsp_bios_cfg.d_raw"  "dsp_bios_cfg.s62"
+Finished building: "dsp_bios_cfg.s62"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+ 
+>> Compilation failure
+subdir_rules.mk:40: recipe for target 'intio.obj' failed
+"../intio.c", line 85: warning #225-D: function declared implicitly
+"../intio.c", line 89: error #20: identifier "i" is undefined
+"../intio.c", line 93: warning #225-D: function declared implicitly
+"../intio.c", line 142: error #161: declaration is incompatible with previous "sinegen" (declared at line 93)
+"../intio.c", line 148: error #161: declaration is incompatible with previous "sine_init" (declared at line 85)
+"../intio.c", line 155: error #68: expected a "}"
+4 errors detected in the compilation of "../intio.c".
+gmake: *** [intio.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+ 
+>> Compilation failure
+subdir_rules.mk:40: recipe for target 'intio.obj' failed
+"../intio.c", line 96: warning #225-D: function declared implicitly
+"../intio.c", line 145: error #161: declaration is incompatible with previous "sinegen" (declared at line 96)
+"../intio.c", line 158: error #68: expected a "}"
+2 errors detected in the compilation of "../intio.c".
+gmake: *** [intio.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../dsp_bios_.tcf"
+Invoking: TConf
+"C:/ti/bios_5_42_02_10/xdctools/tconf" -b -Dconfig.importPath="C:/ti/bios_5_42_02_10/packages;" "../dsp_bios_.tcf"
+Finished building: "../dsp_bios_.tcf"
+ 
+Building file: "dsp_bios_cfg_c.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="dsp_bios_cfg_c.d_raw"  "dsp_bios_cfg_c.c"
+Finished building: "dsp_bios_cfg_c.c"
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building file: "dsp_bios_cfg.s62"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="dsp_bios_cfg.d_raw"  "dsp_bios_cfg.s62"
+Finished building: "dsp_bios_cfg.s62"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../dsp_bios_.tcf"
+Invoking: TConf
+"C:/ti/bios_5_42_02_10/xdctools/tconf" -b -Dconfig.importPath="C:/ti/bios_5_42_02_10/packages;" "../dsp_bios_.tcf"
+Finished building: "../dsp_bios_.tcf"
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+ 
+>> Compilation failure
+subdir_rules.mk:40: recipe for target 'intio.obj' failed
+"../intio.c", line 88: warning #179-D: variable "i" was declared but never referenced
+"../intio.c", line 137: error #20: identifier "i" is undefined
+1 error detected in the compilation of "../intio.c".
+gmake: *** [intio.obj] Error 1
+Building file: "dsp_bios_cfg_c.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="dsp_bios_cfg_c.d_raw"  "dsp_bios_cfg_c.c"
+Finished building: "dsp_bios_cfg_c.c"
+ 
+Building file: "dsp_bios_cfg.s62"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="dsp_bios_cfg.d_raw"  "dsp_bios_cfg.s62"
+Finished building: "dsp_bios_cfg.s62"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../dsp_bios_.tcf"
+Invoking: TConf
+"C:/ti/bios_5_42_02_10/xdctools/tconf" -b -Dconfig.importPath="C:/ti/bios_5_42_02_10/packages;" "../dsp_bios_.tcf"
+Finished building: "../dsp_bios_.tcf"
+ 
+Building file: "dsp_bios_cfg_c.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="dsp_bios_cfg_c.d_raw"  "dsp_bios_cfg_c.c"
+Finished building: "dsp_bios_cfg_c.c"
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building file: "dsp_bios_cfg.s62"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="dsp_bios_cfg.d_raw"  "dsp_bios_cfg.s62"
+Finished building: "dsp_bios_cfg.s62"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../dsp_bios_.tcf"
+Invoking: TConf
+"C:/ti/bios_5_42_02_10/xdctools/tconf" -b -Dconfig.importPath="C:/ti/bios_5_42_02_10/packages;" "../dsp_bios_.tcf"
+Finished building: "../dsp_bios_.tcf"
+ 
+Building file: "dsp_bios_cfg_c.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="dsp_bios_cfg_c.d_raw"  "dsp_bios_cfg_c.c"
+Finished building: "dsp_bios_cfg_c.c"
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building file: "dsp_bios_cfg.s62"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="dsp_bios_cfg.d_raw"  "dsp_bios_cfg.s62"
+Finished building: "dsp_bios_cfg.s62"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../dsp_bios_.tcf"
+Invoking: TConf
+"C:/ti/bios_5_42_02_10/xdctools/tconf" -b -Dconfig.importPath="C:/ti/bios_5_42_02_10/packages;" "../dsp_bios_.tcf"
+Finished building: "../dsp_bios_.tcf"
+ 
+Building file: "dsp_bios_cfg_c.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="dsp_bios_cfg_c.d_raw"  "dsp_bios_cfg_c.c"
+Finished building: "dsp_bios_cfg_c.c"
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building file: "dsp_bios_cfg.s62"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="dsp_bios_cfg.d_raw"  "dsp_bios_cfg.s62"
+Finished building: "dsp_bios_cfg.s62"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../dsp_bios_.tcf"
+Invoking: TConf
+"C:/ti/bios_5_42_02_10/xdctools/tconf" -b -Dconfig.importPath="C:/ti/bios_5_42_02_10/packages;" "../dsp_bios_.tcf"
+Finished building: "../dsp_bios_.tcf"
+ 
+Building file: "dsp_bios_cfg_c.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="dsp_bios_cfg_c.d_raw"  "dsp_bios_cfg_c.c"
+Finished building: "dsp_bios_cfg_c.c"
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building file: "dsp_bios_cfg.s62"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="dsp_bios_cfg.d_raw"  "dsp_bios_cfg.s62"
+Finished building: "dsp_bios_cfg.s62"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+ 
+>> Compilation failure
+subdir_rules.mk:40: recipe for target 'intio.obj' failed
+"../intio.c", line 143: error #18: expected a ")"
+1 error detected in the compilation of "../intio.c".
+gmake: *** [intio.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+ 
+>> Compilation failure
+subdir_rules.mk:40: recipe for target 'intio.obj' failed
+"../intio.c", line 143: error #66: expected a ";"
+1 error detected in the compilation of "../intio.c".
+gmake: *** [intio.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../dsp_bios_.tcf"
+Invoking: TConf
+"C:/ti/bios_5_42_02_10/xdctools/tconf" -b -Dconfig.importPath="C:/ti/bios_5_42_02_10/packages;" "../dsp_bios_.tcf"
+Finished building: "../dsp_bios_.tcf"
+ 
+Building file: "dsp_bios_cfg_c.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="dsp_bios_cfg_c.d_raw"  "dsp_bios_cfg_c.c"
+Finished building: "dsp_bios_cfg_c.c"
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building file: "dsp_bios_cfg.s62"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="dsp_bios_cfg.d_raw"  "dsp_bios_cfg.s62"
+Finished building: "dsp_bios_cfg.s62"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+ 
+>> Compilation failure
+subdir_rules.mk:40: recipe for target 'intio.obj' failed
+"../intio.c", line 142: error #66: expected a ";"
+1 error detected in the compilation of "../intio.c".
+gmake: *** [intio.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+ 
+ undefined first referenced
+  symbol       in file     
+ 
+ --------- ----------------
+>> Compilation failure
+makefile:144: recipe for target 'ProjectFiles.out' failed
+ _sinegen  ./intio.obj     
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "ProjectFiles.out" not built
+gmake[1]: *** [ProjectFiles.out] Error 1
+gmake: *** [all] Error 2
+makefile:140: recipe for target 'all' failed
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+ 
+>> Compilation failure
+subdir_rules.mk:40: recipe for target 'intio.obj' failed
+"../intio.c", line 146: error #68: expected a "}"
+1 error detected in the compilation of "../intio.c".
+gmake: *** [intio.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+ 
+>> Compilation failure
+subdir_rules.mk:40: recipe for target 'intio.obj' failed
+"../intio.c", line 81: warning #179-D: variable "i" was declared but never referenced
+"../intio.c", line 137: error #20: identifier "i" is undefined
+1 error detected in the compilation of "../intio.c".
+gmake: *** [intio.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+ 
+>> Compilation failure
+subdir_rules.mk:40: recipe for target 'intio.obj' failed
+"../intio.c", line 81: warning #552-D: variable "i" was set but never used
+"../intio.c", line 138: error #20: identifier "i" is undefined
+1 error detected in the compilation of "../intio.c".
+gmake: *** [intio.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+ 
+>> Compilation failure
+subdir_rules.mk:40: recipe for target 'intio.obj' failed
+"../intio.c", line 95: error #167: too few arguments in function call
+"../intio.c", line 143: warning #552-D: variable "wave" was set but never used
+1 error detected in the compilation of "../intio.c".
+gmake: *** [intio.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+"../intio.c", line 143: warning #552-D: variable "wave" was set but never used
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+"../intio.c", line 142: warning #552-D: variable "wave" was set but never used
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+ 
+>> Compilation failure
+subdir_rules.mk:40: recipe for target 'intio.obj' failed
+"../intio.c", line 67: error #20: identifier "int16_t" is undefined
+"../intio.c", line 141: error #20: identifier "int16_t" is undefined
+"../intio.c", line 141: warning #552-D: variable "wave" was set but never used
+2 errors detected in the compilation of "../intio.c".
+gmake: *** [intio.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../intio.c"
+Invoking: C6000 Compiler
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="H:/RTDSPLab/lab3/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab3/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+Finished building: "../intio.c"
+ 
+Building target: "ProjectFiles.out"
+Invoking: C6000 Linker
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 -z --stack_size=0x800 -m"ProjectFiles.map" --heap_size=0x800 -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/lib" -i"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" -i"C:/ti/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="ProjectFiles_linkInfo.xml" --rom_model -o "ProjectFiles.out" "./dsp_bios_cfg.obj" "./dsp_bios_cfg_c.obj" "./intio.obj" -l"./dsp_bios_cfg.cmd" -lrts6700.lib -l"C:/ti/ccsv8/C6000/csl/lib/csl6713.lib" -l"C:/ti/ccsv8/C6000/dsk6713/lib/dsk6713bslccsv4.lib" 
+<Linking>
+Finished building target: "ProjectFiles.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ProjectFiles ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'ProjectFiles.out' is up to date.
+
+**** Build Finished ****
