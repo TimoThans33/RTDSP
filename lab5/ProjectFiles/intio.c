@@ -36,21 +36,20 @@
 
 // Some functions to help with writing/reading the audio ports when using interrupts.
 #include <helper_functions_ISR.h>
-
 //double b[] = {0.05882352941, 0.05882352941};
 //double a[] = {1, -0.88235294117};
 
-float a1[] = {1 ,-7.80973974, 2.68412482e+01,-5.30198282e+01, 6.58319005e+01,-5.26124756e+01 ,2.64303907e+01 ,-7.63111434e+00 ,9.69621051e-01};
-float b1[] = {9.85496564e-02 ,-7.72311598e-01 ,2.66384542 ,-5.28134630 ,6.58252588,-5.28134630 ,2.66384542 ,-7.72311598e-01 ,9.85496564e-02};
-//double b2[] = 9.75649439e-02 ,-3.42867427e-01 ,4.91100538e-01 ,-3.42867427e-01 ,9.75649439e-02 ,
-//double b1[] = 00000001 ,-3.62273828e+00 ,5.06388779e+00 ,-3.23461026e+00 ,7.98416468e-01 ,>>
+double a[] = {1,-7.50075620e+00 ,2.49146532e+01 ,-4.78504215e+01 ,5.81080625e+01 ,-4.56859906e+01 ,2.27120221e+01 ,-6.52865869e+00 ,8.31117229e-01 };
+double b[] = {9.38527174e-02 ,-7.10250111e-01 ,2.38971776e+00 ,-4.66804124e+00 ,5.78944455e+00 ,-4.66804124e+00 ,2.38971776e+00 ,-7.10250111e-01 ,9.38527174e-02};
 
-float yout;
-float sample;
-int order = 9;
-float w[9];
-float v[9];
+
+double yout;
+double output;
+int order;
+double *w;
+double *v;
 int i;
+double xin;
 int k;
 float h;
 
@@ -83,7 +82,8 @@ DSK6713_AIC23_CodecHandle H_Codec;
 void init_hardware(void);     
 void init_HWI(void);
 void InteruptFunc(void);
-double bandpass(void);
+void dir2filter(void);
+void dir2Tfilter(void);
 /********************************** Main routine ************************************/
  void main(){
     // initialize board and the audio port
@@ -91,10 +91,10 @@ double bandpass(void);
     /* initialize hardware interrupts */
     init_HWI();
     /* loop indefinitely, waiting for interrupts */
-    //order = sizeof(a1)/sizeof(a1[0])-1;
-    //w = (float *) calloc(order+1, sizeof(float));
-    //v = (float *) calloc(order+1, sizeof(float));
-    for (i=0; i <order; i++){
+    order = sizeof(a)/sizeof(a[0])-1;
+    w = (double *) calloc(order+1, sizeof(double));
+    v = (double *) calloc(order+1, sizeof(double));
+    for (i=0; i< order; i++){
         v[i] = 0;
         w[i] = 0;
     }
@@ -142,30 +142,30 @@ void init_HWI(void)
 /******************** WRITE YOUR INTERRUPT SERVICE ROUTINE HERE***********************/  
 void InteruptFunc(void)
 {
-    v[0] = 1;
-    h = bandpass();
-    mono_write_16Bit((Int16) h);   //Write output to codec
+    dir2filter();
+    mono_write_16Bit(yout);   //Write output to codec
 }
-
-double bandpass(void)
+void dir2filter(void)
 {
-    yout = b1[0]*v[0];
+    v[0] = mono_read_16Bit();
+    output = 0;
+    for (i=order; i>0;i--){
+        v[0] -= a[i]*v[i];
+        output += b[i]*v[i];
+        v[i] = v[i-1];
+    }
+    output += b[0]*v[0];
+}
+void dir2Tfilter(void)
+{
+    //yout = 0;
+    xin = mono_read_16Bit();
+    yout = b[0]*xin;
     for (k=order; k>0;k--){
-        yout += v[k]*b1[k] - w[k]*a1[k];
+        yout += v[k]*b[k]- w[k]*a[k];
         w[k] = w[k-1];
         v[k] = v[k-1];
     }
-    v[1] = v[0];
+    v[1] = xin;
     w[1] = yout;
-    return yout;
-    /*
-    yout = 0;
-    for (i = 8; i>0; i--){
-        v[0] -= a1[i]*v[i]; //implements left
-        yout += b1[i]*v[i]; //implements right
-        v[i] = v[i-1];
-    }
-    yout += b1[0]*v[0];
-    return yout;
-    */
 }
