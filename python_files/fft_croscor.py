@@ -23,6 +23,8 @@ freq_data_aud = fft(audData)
 X_sample = 2/len(samptime)*np.abs(freq_data_samp[0:np.int(len(samptime)/2)])
 X_audio = 2/len(audtime)*np.abs(freq_data_aud[0:np.int(len(audtime)/2)])
 
+print(X_sample)
+
 plt.figure(0)
 plt.subplot(211)
 plt.plot(samptime, sampData, linewidth=0.05, alpha=0.9, label='beep_sample')
@@ -65,7 +67,7 @@ for i in range(0,int(len(audtime))-1):
         Xjw_buf[N-k] = Xjw_buf[(N-1)-k]
     buffer[0] = audData[i]
     Xjw_buf[0] = sum
-    print(Xjw_buf[len(X_sample)-1])
+    #print(Xjw_buf[len(X_sample)-1])
     if counter >= len(X_sample):
         counter = 0
     if abs(cross_cor[i]) > 100000000000:
