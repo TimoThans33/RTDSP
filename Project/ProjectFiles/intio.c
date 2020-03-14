@@ -39,19 +39,26 @@
 //double b[] = {0.05882352941, 0.05882352941};
 //double a[] = {1, -0.88235294117};
 
-double a[] = {1,-7.50075620e+00 ,2.49146532e+01 ,-4.78504215e+01 ,5.81080625e+01 ,-4.56859906e+01 ,2.27120221e+01 ,-6.52865869e+00 ,8.31117229e-01 };
-double b[] = {9.38527174e-02 ,-7.10250111e-01 ,2.38971776e+00 ,-4.66804124e+00 ,5.78944455e+00 ,-4.66804124e+00 ,2.38971776e+00 ,-7.10250111e-01 ,9.38527174e-02};
+#include "dsk6713_led.h"
+#include "fftsample_coef.txt"
 
+#include <complex.h>
 
-double yout;
-double output;
-int order;
-double *w;
-double *v;
+double cross_cor[2] = {0};
+int length;
 int i;
-double xin;
-int k;
-float h;
+int counter;
+double derivative[2] = {0};
+
+double PI = 3.14159265;
+
+typedef double complex cplx;
+
+int buffer[2082] = {0};
+double FFT[2082] = {0};
+double sum_re;
+double sum_im;
+
 
 /******************************* Global declarations ********************************/
 
@@ -84,20 +91,19 @@ void init_HWI(void);
 void InteruptFunc(void);
 void dir2filter(void);
 void dir2Tfilter(void);
+void signal_detection(void);
+void cross_correlation(void);
 /********************************** Main routine ************************************/
  void main(){
+     DSK6713_LED_on(3);
     // initialize board and the audio port
     init_hardware();
     /* initialize hardware interrupts */
     init_HWI();
     /* loop indefinitely, waiting for interrupts */
-    order = sizeof(a)/sizeof(a[0])-1;
-    w = (double *) calloc(order+1, sizeof(double));
-    v = (double *) calloc(order+1, sizeof(double));
-    for (i=0; i< order; i++){
-        v[i] = 0;
-        w[i] = 0;
-    }
+    DSK6713_LED_off(3);
+
+    length = sizeof(coef)/sizeof(coef[0])-1;
     while(1)
     {};
 }
@@ -123,8 +129,8 @@ void init_hardware()
 	the audio port */
 	MCBSP_FSETS(XCR1, XWDLEN1, 32BIT);	
 	MCBSP_FSETS(SPCR1, XINTM, FRM);	
-	
-
+	//Initialise the LED's
+	DSK6713_LED_init();
 }
 
 /********************************** init_HWI() **************************************/  
@@ -142,30 +148,50 @@ void init_HWI(void)
 /******************** WRITE YOUR INTERRUPT SERVICE ROUTINE HERE***********************/  
 void InteruptFunc(void)
 {
-    dir2filter();
-    mono_write_16Bit(yout);   //Write output to codec
+    signal_detection();
+    mono_write_16Bit(cross_cor[0]);   //Write output to codec
 }
-void dir2filter(void)
+
+void signal_detection(void)
 {
-    v[0] = mono_read_16Bit();
-    output = 0;
-    for (i=order; i>0;i--){
-        v[0] -= a[i]*v[i];
-        output += b[i]*v[i];
-        v[i] = v[i-1];
+    buffer[0] = mono_read_16Bit();
+    sum_re = 0;
+    sum_im = 0;
+    for (i=2082; i>0;i--){
+        sum_re +=  buffer[i] * cos(i*counter*2*PI/2082);
+        sum_im -= buffer[i] * sin(i*counter*PI*2/2082);
+        cross_cor[0] += FFT[i] * coef[i];
+        buffer[i] = buffer[i-1];
+        FFT[i] = FFT[i-1];
     }
-    output += b[0]*v[0];
+    FFT[0]= sum_re*sum_re + sum_im*sum_im;
+    derivative[0] = cross_cor[1]-cross_cor[0];
+    if(derivative[0]*derivative[1] < 0){
+        DSK6713_LED_on(3);
+    }
+    else{
+        DSK6713_LED_off(3);
+    }
+    if(counter >= length)
+    {
+        counter = 0;
+    }
+    counter += 1;
+    buffer[1] = buffer[0];
+    cross_cor[1] = cross_cor[0];
+    cross_cor[0] = 0;
+    derivative[1] = derivative[0];
 }
-void dir2Tfilter(void)
+
+void cross_correlation(void)
 {
-    //yout = 0;
-    xin = mono_read_16Bit();
-    yout = b[0]*xin;
-    for (k=order; k>0;k--){
-        yout += v[k]*b[k]- w[k]*a[k];
-        w[k] = w[k-1];
-        v[k] = v[k-1];
+    buffer[0] = mono_read_16Bit();
+    for(i=2082; i>0; i--)
+    {
+        cross_cor[0] += buffer[i] * coef[i] ;
+        buffer[i] = buffer[i-1];
     }
-    v[1] = xin;
-    w[1] = yout;
+    buffer[1] = buffer[0];
+    cross_cor[1] = cross_cor[0];
+    cross_cor[0] = 0;
 }

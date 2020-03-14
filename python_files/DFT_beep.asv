@@ -1,0 +1,8 @@
+[y, fs] = audioread('beep_8k_short.wav')
+for i = 1:length(y)
+    fprintf(' %f,',y(i))
+end
+Y = fft(y)
+for i = 1:length(y)
+    fprintf(' %f', y(i))
+    

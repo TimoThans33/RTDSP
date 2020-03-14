@@ -5,7 +5,8 @@
  
 Building file: "../intio.c"
 Invoking: C6000 Compiler
-"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -O2 -g --include_path="H:/RTDSPLab/lab5/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/lab5/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+"C:/ti/ccsv8/tools/compiler/c6000_7.4.23/bin/cl6x" -mv6700 --abi=coffabi -O2 -g --include_path="H:/RTDSPLab/gitdirectory/R-DSP/Project/ProjectFiles" --include_path="C:/ti/ccsv8/C6000/dsk6713/include" --include_path="C:/ti/ccsv8/C6000/csl/include" --include_path="C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include" --include_path="H:/RTDSPLab/gitdirectory/R-DSP/Project/ProjectFiles/Debug" --include_path="C:/ti/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=c6713 --define="_DEBUG" --define="CHIP_6713" --diag_wrap=off --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="intio.d_raw"  "../intio.c"
+"..\fftsample_coef.txt", line 1: warning #1-D: last line of file ends without a newline
 Finished building: "../intio.c"
  
 Building target: "ProjectFiles.out"
