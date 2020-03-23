@@ -3,7 +3,7 @@
 intio.obj: ../intio.c
 intio.obj: C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include/stdlib.h
 intio.obj: C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include/linkage.h
-intio.obj: H:/RTDSPLab/lab5/ProjectFiles/Debug/dsp_bios_cfg.h
+intio.obj: H:/RTDSPLab/gitdirectory/R-DSP/Project/ProjectFiles/Debug/dsp_bios_cfg.h
 intio.obj: C:/ti/bios_5_42_02_10/packages/ti/bios/include/std.h
 intio.obj: C:/ti/bios_5_42_02_10/packages/ti/bios/include/tistdtypes.h
 intio.obj: C:/ti/bios_5_42_02_10/packages/ti/bios/include/hst.h
@@ -60,11 +60,17 @@ intio.obj: C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include/mathl.h
 intio.obj: C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include/unaccess.h
 intio.obj: C:/ti/ccsv8/C6000/dsk6713/include/helper_functions_ISR.h
 intio.obj: C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include/math.h
+intio.obj: C:/ti/ccsv8/C6000/dsk6713/include/dsk6713_led.h
+intio.obj: ../fftsample_coef.txt
+intio.obj: C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include/complex.h
+intio.obj: C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include/yvals.h
+intio.obj: C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include/stdarg.h
+intio.obj: C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include/_lock.h
 
 ../intio.c: 
 C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include/stdlib.h: 
 C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include/linkage.h: 
-H:/RTDSPLab/lab5/ProjectFiles/Debug/dsp_bios_cfg.h: 
+H:/RTDSPLab/gitdirectory/R-DSP/Project/ProjectFiles/Debug/dsp_bios_cfg.h: 
 C:/ti/bios_5_42_02_10/packages/ti/bios/include/std.h: 
 C:/ti/bios_5_42_02_10/packages/ti/bios/include/tistdtypes.h: 
 C:/ti/bios_5_42_02_10/packages/ti/bios/include/hst.h: 
@@ -121,3 +127,9 @@ C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include/mathl.h:
 C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include/unaccess.h: 
 C:/ti/ccsv8/C6000/dsk6713/include/helper_functions_ISR.h: 
 C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include/math.h: 
+C:/ti/ccsv8/C6000/dsk6713/include/dsk6713_led.h: 
+../fftsample_coef.txt: 
+C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include/complex.h: 
+C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include/yvals.h: 
+C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include/stdarg.h: 
+C:/ti/ccsv8/tools/compiler/c6000_7.4.23/include/_lock.h: 

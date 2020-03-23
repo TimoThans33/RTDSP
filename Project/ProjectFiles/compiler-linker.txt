@@ -19,8 +19,6 @@ C:\ti\bios_5_42_02_10\xdctools
 
 "${CCS_INSTALL_ROOT}\C6000\csl\lib\csl6713.lib"
 "${CCS_INSTALL_ROOT}\C6000\dsk6713\lib\dsk6713bslccsv4.lib"
-
-
 ****************************************************************
 
 

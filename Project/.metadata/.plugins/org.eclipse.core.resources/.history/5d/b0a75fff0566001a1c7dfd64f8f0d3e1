@@ -1,0 +1,32 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+SHELL = cmd.exe
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CPP_SRCS += \
+../cnpy/cnpy.cpp \
+../cnpy/example1.cpp 
+
+OBJS += \
+./cnpy/cnpy.obj \
+./cnpy/example1.obj 
+
+CPP_DEPS += \
+./cnpy/cnpy.d \
+./cnpy/example1.d 
+
+OBJS__QUOTED += \
+"cnpy\cnpy.obj" \
+"cnpy\example1.obj" 
+
+CPP_DEPS__QUOTED += \
+"cnpy\cnpy.d" \
+"cnpy\example1.d" 
+
+CPP_SRCS__QUOTED += \
+"../cnpy/cnpy.cpp" \
+"../cnpy/example1.cpp" 
+
+
