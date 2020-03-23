@@ -1,0 +1,21 @@
+while i <= len(audtime)-1:
+    sum =  0
+    #cross_cor_t[i] = audData[i]*sampData[0]
+    #Xjw_buf = 2/len(buffer)*np.abs(fft(buffer)[0:len(buffer)/2])
+    for k in range(0, len(X_sample)-1):
+        sum += np.abs(buffer[N-k]*np.exp(-2j*np.pi/len(Xjw_buf)*(N-k)*counter))
+        cross_cor[i] +=  Xjw_buf[N-k] * X_sample[N-k]
+        #cross_cor_t[N-k] += buffer[N-k] * sampData[N-k]
+        buffer[N-k] = buffer[(N-1)-k]
+        Xjw_buf[N-k] = Xjw_buf[(N-1)-k]
+    buffer[0] = audData[i]
+    Xjw_buf[0] = sum
+    #print(Xjw_buf[len(X_sample)-1])
+    if counter >= len(X_sample):
+        counter = 0
+    if abs(cross_cor[i]) > 2.75:
+        print("we got a hit!!")
+        hits.append(i)
+    counter += 1
+    i += 1
+234 seconds....
