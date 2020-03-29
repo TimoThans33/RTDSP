@@ -1,4 +1,4 @@
-##Real-Time Digital Signal Processing
+## Real-Time Digital Signal Processing
 Real Time Digital Signal Processing on a Texas Instruments DSP processor. Part of EE3-19 Real-time Digital Signal Processing taught at Imperial College London
 In cooperation with Tayyab Bhandari.
 
