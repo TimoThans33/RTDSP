@@ -1,5 +1,5 @@
 #ignore all
-Picture_project/
+
 /lab5/.jxbrowser-data/
 /lab5/.metadata/
 /lab5/.project
@@ -8,3 +8,5 @@ Picture_project/
 /lab4/.project
 /lab3/.jxbrowser-data/
 /lab3/.metadata/
+/python_files/.idea
+/Project/.project
