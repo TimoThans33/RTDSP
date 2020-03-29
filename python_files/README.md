@@ -9,9 +9,9 @@ Our design process existed of three steps in the same order as shown order.
     ├── .npy                    
     ├── SoundSamples            
     ├── src                     
-           ├── cross_correlation.py
-           ├── cross_correlation_fft.py
-           └── cross_correlation_noise_sub.py
+           ├── cross_correlation.py                 # signal detection with just the cross correlation
+           ├── cross_correlation_fft.py             # signal detection with cross correlation in the frequency domain
+           └── cross_correlation_noise_sub.py       # making use of estimation noise spectrum subtraction
     └── README.md
  ```
 python --V  python3.6
